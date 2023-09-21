@@ -76,17 +76,109 @@
        <a href="https://github.com/JHORDINUCAN/programacion-web" target="_blank">
         <img src="imagen 1.jpg" width="75" height="75" alt="Programacion">
        </a>
+
        <h3>Audio</h3>
        <Audio controls>
         <source src="WhatsApp Ptt 2023-09-20 at 7.56.42 PM.ogg" type="audio/ogg">
         Tu navegador no es compatible con el audio HTML5
        </Audio>
+
        <h3>Video</h3>
        <Video width="800" height="500" controls autoplay muted>
         <source src="Ninja H2 0-323 km_h gps acceleration.mp4" type="video/mp4">
         Tu navegador no es compatible con el video HTML5
        </Video>
+
        <h3>Video Iframe</h3>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/bDaZFXMArX4?si=-WFlf1GBTB_Rh0eN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/bDaZFXMArX4?si=-WFlf1GBTB_Rh0eN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+       </iframe>
+
+       <h3>Tablas</h3>
+       <Table border="1">
+        <thead>
+
+            <th colspan="8">Horario de clases</th>
+            <tr>
+                
+                <th>Asignatura</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <hr>
+        <body>
+            <tr>
+                <td>Programacion web</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>13:00 P.M. A 14:00 P.M.</td>
+                <td rowspan="3">Sin clases</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td rowspan="3">Sin clases</td>
+            </tr>
+            <tr>
+                <td>Base de datos</td>
+                <td>10:00 P.M. A 14:00 P.M.</td>
+                <td>13:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+            </tr>
+            <tr>
+                <td>Diseño de interfaz</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>13:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+                <td>12:00 P.M. A 14:00 P.M.</td>
+            </tr>
+        </body>
+       </Table>
+       <br>
+       <H3>Formularios</H3>
+       <Form action="https://chat.openai.com/auth/login">
+        <label for="Nombre">Nombre: </label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre aquí" required>
+        <br>
+        <label for="Email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="exaple@gmail.com" required>
+        <br>
+        <label for="password"> Contraseña: </label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <hr>
+        <label for="Fecha">Fecha de nacimiento</label>
+        <input type="date" name="Fecha" id="Fecha" placeholder="Escribe tu fecha de nacimiento" required>
+        <br>
+        <label for="Numero">Edad</label>
+        <input type="number" name="number" min="0" max="10" id="number" required>
+        <br>
+        <label for="url">Redes sociales</label>
+        <input type="url" name="url" id="url">
+        <label for="color">elige un color</label>
+        <input type="color" name="color" id="color">
+        <label for="time"> Elige un horario</label>
+        <input type="time" name="time" id="time">
+        <label for="file"> Sube un archivo</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <br>
+        <hr>
+        <label for="telefono">Ingrese su telefono</label>
+        <input type="tel" name="telefono" id="telefono">
+        <input type="submit" value="Enviar">
+        <label for="buscar">Buscaaaaaaaaaaar</label>
+        <input type="search" name="search" id="search">
+        <label for="Borrar"> Borrar </label>
+        <input type="reset" name="borrar" id="borrar">
+       </Form>
+
+       <br>
     </body>
 </html>
