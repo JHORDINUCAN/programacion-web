@@ -8,7 +8,7 @@
     <title>Recesa de chilaquiles</title>
 </head>
 <body>
-    <h1> Receta de chilaquiles rojos </h1>
+    <h1 id="inicio"> Receta de chilaquiles rojos </h1>
     <img src="Receta-Chilaquiles-Rojos.jpg" alt="chilaquiles">
     <br>
     <p>
@@ -16,8 +16,14 @@
         Es por eso que hoy te compartimos una receta fácil para prepararlos en cualquier ocasión, aunque se consumen mucho para el desayuno.
     </p>
     <br>
+    <h2>Utensilios</h2>
+    <ul>
+        <li>Sartén</li>
+        <li>Cucharras</li>
+        <li>Tenedores</li>
+        <li>Platos</li>
+    </ul>
     <h2>Ingredientes</h2>
-    <hr>
         <ul>
             <li>3 jitomates guaje</li>
             <li>6 chiles guajillo limpios, semillas o venas</li>
@@ -46,11 +52,71 @@
             <li>Distribuye en platos los totopos y báñalos con la salsa caliente.</li>
             <li>Agrégales crema, queso y cebolla. Pon en cada plato un huevo frito, sobre los chilaquiles y si lo deseas acompáñalos con frijoles</li>
         </ol>
-        <h2>Notas:</h2>
-        <p>
-            
-        </p>
-</body>
+        <h3>Notas:</h3>
+        <ul>
+            <li>Acompaña tus chilaquiles rojos con una porción de frijoles refritos.</li>
+            <li>Sirve los chilaquiles rojos en platos individuales.</li>
+            <li>Puede preparar la salsa desde días antes.</li>
+        </ul>
+        <h3>Información nutrimental</h3>
+        <table border="1">
+            <head>
+                <th colspan="7">Por porción 573.97 kcal = 235kj</th>
+                <tr>
+                    <th>Carbohidratos</th>
+                    <th>Energía</th>
+                    <th>Grasa total</th>
+                    <th>Grasa saturada</th>
+                    <th>Proteína</th>
+                    <th>Calorias</th>
+                    <th>Azucares</th>
+                </tr>
+            </head>
+            <body>
+                <tr>
+                    <td>48.3 g</td>
+                    <td>543 kcal</td>
+                    <td>3009 g</td>
+                    <td>34 g</td>
+                    <td>567 g</td>
+                    <td>2.6 g</td>
+                    <td>463 g</td>
+                </tr>
+            </body>
+        </table>
+        <h3>¿Quieres otra receta?, contáctanos: </h3>
+        <form onsubmit="mostrarVentAlerta(); return false;">
+            <fieldset>
+                <legend>Contacto</legend>
+    
+                <label>Nombre:</label>
+    
+                <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+                <br>
+                <br>
+                <label>Email:</label>
+    
+                <input type="email" name="email" id="email" placeholder="Escribe tu correo" required>
+    
+                <p>Comentario:</p>
+                <textarea name="texto" id="texto" cols="20" rows="5"></textarea>
+                <br>
+                <input type="submit" name="Enviar" id="Enviar">
+            </fieldset>
+        </form>
+        <p>Ucan Can Jhordin Alexander - <a href="https://github.com/JHORDINUCAN/programacion-web" target="-blank">  Repositorio</a></p>
+        <a href="index.html" target="-blank"> Ir a página del administrador</a> <a>|</a> <a href="#inicio">Ir al inicio</a>
+
+        <script>
+            function mostrarVentAlerta() {
+                
+                alert("¡Formulario enviado con éxito!");
+                document.getElementById("Nombre").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("texto").value = "";
+            }
+        </script>
+    </body>
 <style>
     body{
         font-family: Arial, Helvetica, sans-serif;
