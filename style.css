@@ -1,0 +1,40 @@
+*{
+    font-size: large;
+}
+p{ 
+    color: blue;
+    border: 1px solid red ;
+}
+#texto{
+    color: red;
+}
+.texto-verde{
+    color: green;
+}
+.centro{
+    text-align: center;
+}
+h1{
+    color: #C8A627;
+    border: 1px solid red;
+}
+/* body{
+    background-color: url(https://definicion.de/wp-content/uploads/2009/11/nodo-1.jpg);
+    background-repeat: no-repeat;
+} */
+body{
+    background-color: rgb(114, 132, 126);
+    margin: 10px;
+}
+.margin1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+.margin1 > p{
+    margin: 15px;
+    padding: 14px;
+}
+
