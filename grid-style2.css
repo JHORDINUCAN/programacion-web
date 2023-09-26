@@ -1,25 +1,28 @@
 body{
     margin: 40px;
+    background-color: #444;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #fff;
+    background-color: #444;
     grid-gap: 15px;
-    color: #444;
+    color: #fff;
     align-content: start;
 }
 
 .box{
-    background-color: #444;
+    background-color: #7d4040;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .box1{
-    background-color: #444;
+    background-color: #7d4040;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -31,14 +34,36 @@ body{
 }
 
 .article{
+    display: flex;
+    justify-content: center;
     grid-column: 1/5;
+    gap: 50px;
+}
+.article2{
+    grid-column: 1/6;
 }
 
 .aside{
     grid-column: 5/6;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 
 .footer{
     grid-column: 1/6;
+}
+
+#Nombre{
+    opacity: 50%;
+}
+
+#email{
+    opacity: 50%;
+}
+
+#texto{
+    opacity: 50%;
+}
+
+#color{
+    color: #fff;
 }
