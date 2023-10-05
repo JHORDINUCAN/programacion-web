@@ -10,6 +10,7 @@ body{
     color: white;
 }
 
+
 .logo-img {
     width: 60px; 
     margin-right: 10px;
@@ -20,6 +21,7 @@ body{
     margin-right: 5px;
 }
 
+
 a{
     color: black;
     text-decoration: none;
@@ -27,9 +29,10 @@ a{
 
 h1{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 10px 0;
     line-height: 1.2;
+
 }
 
 h2{
@@ -67,7 +70,7 @@ p{
 
 .navbar h1{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     margin: 10px 0;
     line-height: 1.2;
 }
