@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.logo-img {
+    width: 60px; 
+    margin-right: 10px;
+}
+
+.logo-img2 {
+    width: 40px; 
+    margin-right: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+img{
+    width: 100%;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.navbar{
+    background-color: black;
+    height: 70px;
+    padding: 0 30px;
+}
+
+.navbar h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.navbar .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    padding: 9px;
+    margin: 0 10px; 
+}
+
+.navbar a:hover{
+    color: #57DA4D;
+    border-bottom: 3px solid #fff;
+}
+
+.showcase{
+    height: 300px;
+    background-color: black;
+}
+
+.showcase p{
+    margin-bottom: 30px;
+}
+
+.showcase img{
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.showcase-form{
+    padding-left: 7px;
+}
+
+.grid{
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.grid-item-1, .grid-item-2{
+    position: relative;
+    top: 50px;
+}
+
+.showcase input[type='email']{
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.btn{
+    border-radius: 6px;
+    padding: 12px 20px;
+    background-color: #57DA4D;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+
+}
+
+.little-info{
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.text{
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats{
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.stat{
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+.stats .fa{
+    color: #57DA4D;
+}
+
+.testimonial{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.testimonial img{
+    height: 100%;
+}
+
+.testimonial h3{
+    text-align: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card{
+    padding: 10px;
+    background-color: white;
+    box-shadow: -7px -7px 20px rgb(0, 0, 0, 0.2),
+                7px 7px 20px rgb(0, 0, 0, 0.2);
+}
+
+
+.text-card{
+    margin-top: 10px;
+    font-size: 150%;
+}
+
+footer{
+    background-color: black;
+    padding: 20px 10px;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+
+.profiles{
+    color: white;
+}
+
+footer a:hover{
+    color: #57DA4D;
+    border-bottom: 2px solid #57DA4D;
+}
+
+.tittle-section{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.line-green {
+    border: none;
+    border-top: 8px solid green;
+    margin: 0;
+}
+
+.line-green2 {
+    border: none;
+    border-top: 4px solid green;
+    margin: 0;
+}
+
+.line-green3 {
+    border: none;
+    border-top: 2px solid green;
+    margin: 0;
+}
+
+.line-black {
+    border: none;
+    border-top: 4px solid black;
+    margin: 0;
+}
+
+.profiles a i {
+    font-size: 2rem; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+/*By Jhordin*/ 
