@@ -126,6 +126,7 @@ p{
     top: 50px;
 }
 
+
 .showcase input[type='email']{
     padding: 10px 70px 10px 0;
     font-size: 14px;
@@ -239,6 +240,22 @@ footer a:hover{
     border-bottom: 2px solid #57DA4D;
 }
 
+.facebook-icon:hover {
+    color: #1DA1F2;
+    border-bottom: 2px solid #1DA1F2;
+
+}
+
+.twitter-icon:hover {
+    color: #1DA1F2;
+    border-bottom: 2px solid #1DA1F2;
+}
+
+.instagram-icon:hover {
+    color: #c86d40;
+    border-bottom: 2px solid #c86d40;
+}
+
 .tittle-section{
     text-align: center;
     color: black;
@@ -247,19 +264,19 @@ footer a:hover{
 
 .line-green {
     border: none;
-    border-top: 8px solid green;
+    border-top: 8px solid #57DA4D;
     margin: 0;
 }
 
 .line-green2 {
     border: none;
-    border-top: 4px solid green;
+    border-top: 4px solid #57DA4D;
     margin: 0;
 }
 
 .line-green3 {
     border: none;
-    border-top: 2px solid green;
+    border-top: 2px solid #57DA4D;
     margin: 0;
 }
 
@@ -270,7 +287,14 @@ footer a:hover{
 }
 
 .profiles a i {
-    font-size: 2rem; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-size: 2rem;
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    text-align: justify;
 }
 
 /*By Jhordin*/ 
